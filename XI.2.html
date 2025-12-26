@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>WARGA 02</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 25px;
+            margin: 0;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(12px);
+            font-size: 36px;
+            letter-spacing: 4px;
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .galeri {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .galeri img {
+            width: 100%;
+            border-radius: 18px;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .galeri img:hover {
+            transform: scale(1.06);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>WARGA 02</h1>
+
+    <div class="galeri">
+        <img src="XI.2.jpeg" alt="Foto 1">
+        <img src="XI.2 (2).jpeg" alt="Foto 2">
+        <img src="XI.2 (3).jpeg" alt="Foto 3">
+        <img src="XI.2 (4).jpeg" alt="Foto 4">
+        <img src="XI.2 (5).jpeg" alt="Foto 5">
+    </div>
+
+</body>
+</html>
